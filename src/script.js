@@ -9,7 +9,7 @@ import * as dat from 'lil-gui'
  * Base
  */
 // Debug
-const gui = new dat.GUI()
+// const gui = new dat.GUI()
 
 // Canvas
 const canvas = document.querySelector('canvas.webgl')
@@ -37,7 +37,7 @@ fontLoader.load(
 
         // Text
         const textGeometry = new TextGeometry(
-            'Hello Three.js',
+            'Digital Spaces',
             {
                 font: font,
                 size: 0.5,
